@@ -1,3 +1,4 @@
+namespace RazorPage.Models;
 public class Libro
 {
     public int Id { get; set; }

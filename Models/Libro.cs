@@ -9,4 +9,5 @@ public class Libro
     public DateTime FechaPublicacion { get; set; }
     public int Paginas { get; set; }
     public bool Destacado { get; set; }
+    public DateTime CreatedAt { get; set; }
 }

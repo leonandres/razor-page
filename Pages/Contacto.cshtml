@@ -1,0 +1,19 @@
+@page
+@model MiProyectoRazorPages.Pages.ContactoModel
+@{
+    ViewData["Title"] = "Contacto";
+}
+
+<h1>Página de Contacto</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
